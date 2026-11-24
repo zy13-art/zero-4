@@ -1,0 +1,17 @@
+{
+  "name": "zero-4",
+  "plugins": [
+    {
+      "name": "roxy-reader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/roxy-reader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
